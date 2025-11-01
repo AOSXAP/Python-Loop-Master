@@ -1,7 +1,13 @@
 
 # Python Loop Master
+## Python Loop Master este un proiect educațional realizat pentru modulul pedagogic implementat în React.
+### Scopul său este formarea competențelor digitale și algoritmice printr-un instrument interactiv care ajută elevii să înțeleagă funcționarea buclelor în Python, prin execuție directă de cod și feedback vizual.
 
-This is a Vite + React implementation of *Python Loop Master*.
+<img width="1920" height="1293" alt="image" src="https://github.com/user-attachments/assets/a2c1e1ea-164f-41ef-82f3-ac2c075cc01e" />
+
+
+<img width="1920" height="1217" alt="image" src="https://github.com/user-attachments/assets/d46187bb-1694-4ddb-aad5-dbc47fdcc629" />
+
 
 ## Local Development
 
@@ -10,24 +16,16 @@ npm install
 npm run dev
 ```
 
-The application will be available on the port reported by Vite (default `http://localhost:5173`).
-
 ## Docker
-
-Build and run the production image locally:
 
 ```bash
 docker build -t mini-game-for-loops .
 docker run --rm -p 8080:80 mini-game-for-loops
 ```
 
-Or use Docker Compose for a one-step workflow:
-
 ```bash
 docker compose up --build
 ```
-
-The site will be exposed at `http://localhost:8080`.
 
 ## Documentație (RO)
 
